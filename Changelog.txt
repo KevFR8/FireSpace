@@ -1,0 +1,28 @@
+_____________________________________
+_____________________________________
+Beta 0.1.20 
+Coming Soon !
+_____________________________________
+_____________________________________
+Beta 0.1.15 - Codename: "AquaShip"
+
+- Système d'IA ennemie.
+- Ajout de nouveaux sprites [ELS Ship (Enderman Luihum Ship's / Zai Ship's / Kev Ship's)]
+- Ajout du dossier "misc"
+- Ajout d'un Icone 
+- Polisage des Sprites
+- Polisage du Répo (Github)
+- Ajout des projets (Github)
+- Création du répertoire Github
+- Résolutions de problèmes
+_____________________________________
+Prototype/Alpha 0.0.1 à 0.0.11 - Codename: "FireAqua"
+
+- Ajout d'un background
+- Ajout du fichiers main.py / Game.py / Bullet.py / FireShip.py
+- Ajout d'un dossier sprite 
+- Ajout du joueur
+- Système de Tir
+- Système de déplaçement
+- Système de collisions
+- Limite d'FPS (60FPS)
