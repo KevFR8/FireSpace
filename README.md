@@ -22,4 +22,6 @@ je vous invite à jetez-un coup d'oeil si cela n'est pas fait !
 * Source principale du projet: https://github.com/thecobaye54/SpaceShipsBattle
 * Source des éléments du jeux: https://github.com/KevFR8/KevFR8.github.io 
 
+Version actuel du jeu: Beta 0.1.15
 © kCorp's 2022
+
