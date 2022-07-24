@@ -3,6 +3,7 @@ import pygame
 from pygame.locals import *
 
 from FireShip import *
+from EnemyManager import *
 
 
 class Game:
@@ -19,8 +20,8 @@ class Game:
         self.clock = pygame.time.Clock()
 
         # Icone
-        icon = pygame.image.load("res/misc/icon.ico")
-        pygame.display.set_icon(icon)
+        self.icon = pygame.image.load("res/misc/icon.ico")
+        pygame.display.set_icon(self.icon)
 
         # Wallpaper
         self.bg = pygame.image.load("res/bg/wallpaper.png")
@@ -33,6 +34,8 @@ class Game:
         self.player = SpaceShip((200, 200), 5, self.player_ship_img, self.bullet_img)
 
         self.player_bullet_group = pygame.sprite.Group()
+
+        self.enemy_manager = EnemyManager(self.res, self.player)
 
         self.start()
 
@@ -89,6 +92,9 @@ class Game:
 
     def draw(self):
         self.screen.blit(self.player.image, self.player.rect)
+
+        self.enemy_manager.draw(self.screen)
+
         self.player_bullet_group.draw(self.screen)
     
     def clear_bullets(self):
@@ -111,6 +117,8 @@ class Game:
         self.player_bullet_group.update()
 
         self.draw()
+
+        self.enemy_manager.update()
 
         self.clock.tick(50)
         pygame.display.update()
