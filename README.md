@@ -21,5 +21,6 @@
 * Source des éléments du jeu: https://github.com/KevFR8/KevFR8.github.io 
 
 :floppy_disk: - Version actuel du jeu: Beta 0.1.17
+
 © kCorp's 2022
 
