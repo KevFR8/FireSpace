@@ -1,4 +1,3 @@
-from msilib.schema import Icon
 import pygame
 from pygame.locals import *
 

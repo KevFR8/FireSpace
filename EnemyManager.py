@@ -10,13 +10,12 @@ class EnemyManager:
 
         self.sprite_group = pygame.sprite.Group()
 
+<<<<<<< Updated upstream
         self.bullet_img = pygame.image.load("res/sprites/bullet.png")
-
-        # ELS = Enderman & Luihum Ship's
-        # ZS = Zai's Ship
-        # KS = Kev's Ship
-
-        # Maybe in the future add more enemy idk
+=======
+        # Images
+        self.bullet_img = pygame.image.load("res/sprites/fire.png")
+>>>>>>> Stashed changes
 
         self.enemy_1 = pygame.image.load("res/sprites/ELS.png")
         self.enemy_2 = pygame.image.load("res/sprites/ZS.png")
