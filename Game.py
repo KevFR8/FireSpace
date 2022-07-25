@@ -3,7 +3,7 @@ import pygame
 from pygame.locals import *
 
 from FireShip import *
-from EnemyManager import *
+from EnemyManager import EnemyManager
 
 
 class Game:
@@ -31,7 +31,7 @@ class Game:
         self.player_ship_img = pygame.image.load("res/sprites/spaceship.png")
         self.bullet_img = pygame.image.load("res/sprites/fire.png")
 
-        self.player = SpaceShip((200, 200), 5, self.player_ship_img, self.bullet_img)
+        self.player = SpaceShip((self.res[0]/2, self.res[1]/2), 10, self.player_ship_img, self.bullet_img)
 
         self.player_bullet_group = pygame.sprite.Group()
 
@@ -109,6 +109,10 @@ class Game:
 
 
     def update(self):
+        for enemy in self.sprite_group.sprites():
+            enemy.pre_update(self.player)
+        self.sprite_group.update()
+
         self.screen.blit(self.bg_img, (0, 0))
 
         self.clear_bullets()
