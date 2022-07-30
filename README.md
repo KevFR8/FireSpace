@@ -1,4 +1,4 @@
-# FireAqua Space Battle
+# :rocket:FireAqua Space Battle
 
 ## Sommaire
 - [Présentation](#présentation)
