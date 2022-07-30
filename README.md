@@ -20,7 +20,7 @@
 * Source principale du projet: https://github.com/thecobaye54/SpaceShipsBattle
 * Source des éléments du jeu: https://github.com/KevFR8/KevFR8.github.io 
 
-:floppy_disk: - Version actuel du jeu: Beta 0.1.17
+:floppy_disk: - Version actuel du jeu: Beta 0.1.18.2
 
 © kCorp's 2022
 
