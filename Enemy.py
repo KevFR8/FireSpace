@@ -34,4 +34,4 @@ class Enemy(SpaceShip):
         self.rotation = angle
 
         self.increase_time()
-        self.pos = self.calculate_ellipse(self.ellipse[0], self.ellipse[1], self.time) 
+        self.pos = self.calculate_ellipse(self.ellipse[0], self.ellipse[1], self.time)
